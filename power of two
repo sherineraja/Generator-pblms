@@ -1,0 +1,9 @@
+def powof2(n):
+    pow = 1
+    for i in range(5):
+        yield pow
+        pow *= 2
+
+
+t = list(powof2(3))
+print(t)
